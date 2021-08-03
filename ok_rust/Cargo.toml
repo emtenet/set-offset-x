@@ -1,0 +1,18 @@
+[package]
+name = "ok_rust"
+version = "0.1.0"
+authors = ["Michael Taylor <michael@emte.net.au>"]
+edition = "2018"
+
+[dependencies]
+wio = "0.2.2"
+
+[dependencies.winapi]
+version = "0.3.9"
+features = [
+	"d2d1_1",
+	"d3d11_2",
+	"dcomp",
+	"dxgi",
+	"winerror"
+]

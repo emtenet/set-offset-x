@@ -1,0 +1,11 @@
+[package]
+name = "issue"
+version = "0.1.0"
+authors = ["Michael Taylor <michael@emte.net.au>"]
+edition = "2018"
+
+[dependencies]
+windows = "0.18.0"
+
+[build-dependencies]
+windows = "0.18.0"
